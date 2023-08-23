@@ -1,0 +1,60 @@
+@import "../../_globalColor";
+
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  // text-align: center;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.software-skill-inline > i {
+  color: $subTitle;
+}
+
+// .software-skill-inline > i:hover {
+//   color: $skillsColor;
+// }
+
+// .software-skill-inline > img:hover {
+//   color: $skillsColor;
+// }
+
+// .software-skill-inline > img:hover ~ p {
+//   color: $skillsColor;
+// }
+
+.software-skill-inline > p {
+  color: $subTitle;
+  font-size: 20px;
+}
+// .software-skill-inline > i:hover ~ p {
+//   color: $skillsColor;
+// }
+
+.software-skill-inline i {
+  font-size: 75px; /* Ajustez cette valeur en fonction de la taille souhaitée */
+  vertical-align: middle;
+}
+
+.software-skill-inline img {
+  width: 75px; /* Ajustez cette valeur en fonction de la taille souhaitée */
+  height: 75px; /* Ajustez cette valeur en fonction de la taille souhaitée */
+  vertical-align: middle;
+  color: #868e96;
+}
+
+.center-content {
+  // display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}

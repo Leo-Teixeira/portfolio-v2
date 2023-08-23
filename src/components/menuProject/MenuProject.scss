@@ -1,0 +1,57 @@
+@import "../../globalColor";
+
+.menu-project {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-color: $darkBackground;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-25px);
+  z-index: 100;
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+
+    a {
+      display: block;
+      font-size: 16px;
+      color: $textColor;
+      text-decoration: none;
+      margin-bottom: 10px;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: $buttonColor;
+      }
+    }
+  }
+
+  // Responsive styles
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: auto;
+    transform: translateX(-100%);
+
+    &.open {
+      transform: translateX(0);
+    }
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
