@@ -3,8 +3,8 @@ import "./Header.scss";
 
 export default function Header() {
   const menuItems = [
-    {label: "<Langages />", href: "#skills", key: "skills"},
-    {label: "< Mes projets />", href: "#projects", key: "projects"},
+    {label: "< Compétences techniques />", href: "#skills", key: "skills"},
+    {label: "< Projets />", href: "#projects", key: "projects"},
     {label: "< Ecoles />", href: "#education", key: "education"},
     {
       label: "< Experiences Professionnelles />",

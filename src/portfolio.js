@@ -22,10 +22,8 @@ const illustration = {
 const greeting = {
   username: "Léo Teixeira",
   title: "Léo Teixeira",
-  //!changer le text
   subTitle:
-    "Titulaire d'un Bachelor Développeur Web à Angers, Je cherche actuellement une alternance en tant que développeur FullStack a partir de septembre 2023",
-  //!mettre le lien du cv
+    "Titulaire d'un Bachelor Développeur Web à Angers, je cherche actuellement une alternance en tant que développeur FullStack à partir de septembre 2023.",
   resumeLink: "/CV.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -44,12 +42,11 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Compétences techniques",
-  subTitleLanguage: "Les différents langages de programmation :",
-  subTitleFramework: "Les différents framework que j'ai pu utiliser :",
-  subTitleBdd:
-    "Les différents langages de base de données, ainsi que SGBD que j'ai pu découvrir :",
-  subTitleOther: "Les différents logiciels ou autres : ",
+  title: "Mes compétences techniques",
+  subTitleLanguage: "Langages de programmation :",
+  subTitleFramework: "Frameworks :",
+  subTitleBdd: "Langages de base de données et SGBD :",
+  subTitleOther: "Autres logiciels : ",
   //!rajputer les icones manquant
   softwareSkillsLanguage: [
     {
@@ -170,7 +167,7 @@ const skillsSection = {
 // Education Section
 
 const bigProjects = {
-  title: "Mes Projets",
+  title: "Mes projets",
   subtitle:
     "Voici une petite présentation des différents projets que j'ai pu développer :",
   projects: [
@@ -203,7 +200,7 @@ const bigProjects = {
       image: "/images/carbao1.jpg",
       projectName: "Carbao",
       projectDesc:
-        "Réseau social pour professionnel développé par l'entreprise Vozit",
+        "Réseau social pour professionnels développé par l'entreprise Vozit",
       cardLanguage: [
         {
           name: "Flutter"
@@ -221,7 +218,7 @@ const bigProjects = {
       image: "/images/express.png",
       projectName: "learn Express js",
       projectDesc:
-        "Création d'un petit site web afin d'apprendre Express Js dans le cadre d'un tp",
+        "Création d'un site web afin d'apprendre Express Js dans le cadre d'un tp",
       cardLanguage: [
         {
           name: "Javascript"
@@ -241,7 +238,7 @@ const bigProjects = {
     {
       image: "/images/yahtzee.png",
       projectName: "Le Yahtzee",
-      projectDesc: "Jeux de dés sur une interface cliente (CLI)",
+      projectDesc: "Jeu de dés sur une interface cliente (CLI)",
       cardLanguage: [
         {
           name: "Python"
@@ -280,7 +277,7 @@ const bigProjects = {
     {
       image: "/images/meteo1.jpg",
       projectName: "Meteo App",
-      projectDesc: "Application météo développer dans le cadre d'un tp",
+      projectDesc: "Application météo développée dans le cadre d'un tp",
       cardLanguage: [
         {
           name: "Flutter"
@@ -295,7 +292,7 @@ const bigProjects = {
       image: "/images/manga2.jpg",
       projectName: "MangList",
       projectDesc:
-        "Application qui permet une gestion plus simple des mangas possédés par un utilisateur",
+        "Application de gestion de mangas possédés par un utilisateur",
       cardLanguage: [
         {
           name: "Flutter"
@@ -424,7 +421,7 @@ const educationInfo = {
     {
       schoolName: "MyDigitalSchool Angers",
       logo: "/images/mds.png",
-      subHeader: "Bachelor Developpement web en alternance",
+      subHeader: "Bachelor Développement web en alternance",
       duration: "Septembre 2022 - Septembre 2023",
       linkSchool: "https://www.mydigitalschool.com/ecole-multimedia-angers"
       // desc: "Participated in the research of XXX and published 3 papers.",
@@ -446,16 +443,16 @@ const educationInfo = {
 };
 
 const work = {
-  title: "Mes Expériences Professionnelles",
+  title: "Mes expériences professionnelles",
   display: true, // Set false to hide this section, defaults to true
   work: [
     {
       workName: "Vozit",
       logo: "/images/vozit_slogan.ico",
-      subHeader: "1 an d'alternance en Bachelor",
+      subHeader: "Alternance en Bachelor",
       duration: "Septembre 2022 - Septembre 2023",
       linkWork: "https://vozit.fr/",
-      desc: "Refonte d'un réseau social pour professionnel et Création d'une application de téléphonie mobile avec site web de gestion de ses utilisateurs"
+      desc: "Refonte d'un réseau social pour professionnels et création d'une application de téléphonie mobile avec site web de gestion de ses utilisateurs"
     },
     {
       workName: "Rasec Amenagement",
