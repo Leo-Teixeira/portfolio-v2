@@ -16,7 +16,7 @@
 }
 
 .header {
-  background-color: $lightBackground1;
+  // background-color: $lightBackground1;
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
@@ -62,7 +62,7 @@
 }
 
 ul li a:hover {
-  background-color: $lightBackground1;
+  // background-color: $lightBackground1;
   color: green; /* Nouvelle couleur de texte au survol */
   cursor: pointer;
 }
