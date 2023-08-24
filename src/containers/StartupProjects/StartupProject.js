@@ -1,3 +1,4 @@
+//testt
 import React, {useContext} from "react";
 import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
