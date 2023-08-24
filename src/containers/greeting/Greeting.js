@@ -1,14 +1,12 @@
-import React, {useContext} from "react";
+import React from "react";
 import {Fade} from "react-reveal";
 import "./Greeting.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
 import {greeting} from "../../portfolio";
-import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
-  const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -19,21 +17,8 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1
-                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
-              >
-                {" "}
-                {greeting.title}{" "}
-              </h1>
-              <p
-                className={
-                  isDark
-                    ? "dark-mode greeting-text-p"
-                    : "greeting-text-p subTitle"
-                }
-              >
-                {greeting.subTitle}
-              </p>
+              <h1 className={"dark-mode greeting-text"}> {greeting.title} </h1>
+              <p className={"dark-mode greeting-text-p"}>{greeting.subTitle}</p>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Me contacter" href="#contact" />

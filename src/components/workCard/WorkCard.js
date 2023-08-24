@@ -1,7 +1,6 @@
-import React, {createRef, useContext} from "react";
+import React, {createRef} from "react";
 import {Fade, Slide} from "react-reveal";
 import "./WorkCard.scss";
-import StyleContext from "../../contexts/StyleContext";
 
 export default function WorkCard({work}) {
   function openUrlInNewTab(url) {
@@ -13,8 +12,6 @@ export default function WorkCard({work}) {
   }
 
   const imgRef = createRef();
-
-  const {isDark} = useContext(StyleContext);
 
   if (!work.logo)
     console.error(`Image of ${work.name} is missing in work section`);
@@ -42,16 +39,10 @@ export default function WorkCard({work}) {
             </h5>
 
             <div className="work-text-details">
-              <h5
-                className={
-                  isDark
-                    ? "dark-mode work-text-subHeader"
-                    : "work-text-subHeader"
-                }
-              >
+              <h5 className={"dark-mode work-text-subHeader"}>
                 {work.subHeader}
               </h5>
-              <p className={`${isDark ? "dark-mode" : ""} work-text-duration`}>
+              <p className={`${"dark-mode"} work-text-duration`}>
                 {work.duration}
               </p>
               <p className="work-text-desc">{work.desc}</p>

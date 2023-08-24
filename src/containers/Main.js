@@ -16,7 +16,7 @@ import "./Main.scss";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isDark] = useLocalStorage("isDark", darkPref.matches);
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
@@ -42,7 +42,6 @@ const Main = () => {
             <Header />
             <Greeting />
             <Skills />
-            {/* <Projects /> */}
             <StartupProject />
             <Education />
             <Work />
