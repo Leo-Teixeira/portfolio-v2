@@ -10,7 +10,7 @@ export default function Header() {
     {label: "< Mes projets />", href: "#projects", key: "projects"},
     {label: "< Ecoles />", href: "#education", key: "education"},
     {
-      label: "< Experience Professionnel />",
+      label: "< Experiences Professionnelles />",
       href: "#experience",
       key: "experience"
     },

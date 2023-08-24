@@ -452,7 +452,7 @@ const work = {
     {
       workName: "Vozit",
       logo: "/images/vozit_slogan.ico",
-      subHeader: "1 ans d'alternance en Bachelor",
+      subHeader: "1 an d'alternance en Bachelor",
       duration: "Septembre 2022 - Septembre 2023",
       linkWork: "https://vozit.fr/",
       desc: "Refonte d'un réseau social pour professionnel et Création d'une application de téléphonie mobile avec site web de gestion de ses utilisateurs"
